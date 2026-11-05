@@ -1,0 +1,1 @@
+Place the original UCI file named 'Online Retail.xlsx' in this folder, or upload it when the notebook prompts you. Reuse the same genuine dataset from OIBSIP Level 1 Task 1.
