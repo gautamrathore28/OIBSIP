@@ -1,0 +1,11 @@
+column,missing_values,data_type,unique_values
+order_id,0,object,30
+customer_id,1,object,29
+customer_name,1,object,29
+gender,0,object,7
+gender_code,0,object,6
+order_date,0,object,30
+quantity,1,float64,5
+unit_price,1,object,20
+city,0,object,6
+status,0,object,7

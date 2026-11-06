@@ -1,0 +1,32 @@
+order_id,customer_id,customer_name,gender,gender_code,order_date,quantity,unit_price,city,status
+ORD-001, c001 ,  Riya Sharma ,F, female ,2025-01-05,2.0,499.00, Indore ,paid
+ORD-002,C002,Aman Verma,male,M,05/02/2025,1.0,"1,299",Bhopal,PAID
+ORD-003,C003,Neha Patel,Female,F,2025/03/11,3.0,299.50,Indore,Delivered
+ORD-004,C004,Kabir Khan,M,male,2025-04-19,0.0,799,Ujjain,pending
+ORD-005,C005,,female,F,2025-05-23,2.0,,Indore,Paid
+ORD-006,C006,Arjun Singh,Male,M,2025-06-02,1.0,999.99,Dewas,delivered
+ORD-007,C007,Sara Khan,F,Female,2025-07-15,4.0,199,Bhopal,PAID
+ORD-008,C008,Dev Patel,male,M,2025-08-09,2.0,"2,499.00",Indore,shipped
+ORD-009,C009,Anaya Rao,Female,F,2025-09-12,1.0,599, indore ,Delivered
+ORD-010,C010,Ishaan Das,M,male,2025-10-01,2.0,899,Dewas,paid
+ORD-011,C011,Tara Mehta,female,F,2025-11-21,,349,Bhopal,pending
+ORD-012,C012,Vihaan Shah,Male,M,2025-12-10,1.0,"1,599",Indore,Paid
+ORD-013,C013,Anvi Gupta,F,Female,2025-02-18,2.0,not available,Dewas,delivered
+ORD-014,C014,Rehan Ali,male,M,2025-03-28,1.0,699,Ujjain,PAID
+ORD-015,C015,Mira Nair,Female,F,31-13-2025,2.0,899,Indore,shipped
+ORD-016,C016,Karan Roy,M,Male,2025-05-30,1.0,999,Bhopal,Delivered
+ORD-017,C017,Ira Sen,female,F,2025-06-14,2.0,399,Indore,paid
+ORD-018,C018,Om Jain,Male,M,2025-07-22,1.0,799,Dewas,pending
+ORD-019,C019,Zoya Mir,F,Female,2025-08-16,3.0,99999,Ujjain,PAID
+ORD-020,C020,Aarav Paul,male,M,2025-09-03,2.0,599,Bhopal,delivered
+ORD-021,C021,Nisha Rao,unknown,F,2025-10-27,1.0,499,Indore,paid
+ORD-022,C022,Yash Malhotra,M,Male,2025-11-08,2.0,899,Dewas,shipped
+ORD-023,C023,Pihu Soni,female,F,2025-12-19,1.0,299,Ujjain,pending
+ORD-024,C024,Rudra Bose,M,Male,2025-01-29,2.0,"1,499",Bhopal,paid
+ORD-025,,Kiara Gill,F,Female,2025-02-07,1.0,699,Indore,delivered
+ORD-026,C026,Aadi Kapoor,male,M,2025-03-17,2.0,899,Dewas,paid
+ORD-027,C027,Myra Das,Female,F,2025-04-22,1.0,399,Ujjain,shipped
+ORD-028,C028,Neil Shah,M,Male,2025-05-09,3.0,"1,099",Indore,delivered
+ORD-029,C029,Aisha Khan,female,F,2025-06-25,2.0,799,Bhopal,paid
+ORD-030,C030,Rohan Sen,Male,M,2025-07-07,1.0,599,Dewas,pending
+ORD-003,C003,Neha Patel,Female,F,2025/03/11,3.0,299.50,Indore,Delivered
