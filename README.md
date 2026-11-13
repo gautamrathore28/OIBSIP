@@ -1,33 +1,18 @@
-# Data Cleaning — E-commerce Orders
-**Oasis Infobyte | Data Analytics | Level 1 — Task 3**
+# Level 2 – Task 1: House Price Prediction
 
-## Overview
-This project demonstrates a reproducible data-cleaning workflow on a deliberately messy **synthetic** e-commerce orders dataset.
+## Objective
+Build and evaluate a Linear Regression model to estimate house values from property and location-related features.
 
-## Tools
-Python, pandas, NumPy, Jupyter Notebook.
+## Tech stack
+Python, pandas, scikit-learn, matplotlib, seaborn, Jupyter Notebook.
 
-## Folder structure
-- `Data_Cleaning_Ecommerce_Orders.ipynb` — full walkthrough and runnable code.
-- `data/messy_ecommerce_orders.csv` — raw intentionally messy input.
-- `outputs/cleaned_ecommerce_orders.csv` — cleaned output.
-- `outputs/initial_data_quality_report.csv` — initial data-quality report.
-- `outputs/before_after_quality_summary.csv` — before/after summary.
+## Dataset
+The notebook uses the California Housing dataset provided by scikit-learn (`fetch_california_housing`). It is a public educational dataset with housing and area-level features. The notebook downloads it when run in Google Colab.
 
-## How to run
-1. Open the notebook in Google Colab or Jupyter.
-2. Keep the `data` and `outputs` folders beside the notebook.
-3. Run all cells from top to bottom.
-4. The cleaned CSV is saved in `outputs/`.
+## Run
+1. Upload/open `House_Price_Prediction_Linear_Regression.ipynb` in Google Colab.
+2. Run all cells from top to bottom.
+3. The notebook loads the dataset, explores it, preprocesses features, trains Linear Regression, evaluates MSE/RMSE/R², and creates diagnostic plots.
 
-## Cleaning decisions
-- Remove exact duplicate rows.
-- Strip spaces and standardise IDs, names, city, gender and status.
-- Convert date, quantity and unit price to appropriate data types.
-- Impute invalid/missing numeric values using median.
-- Replace non-critical missing categories with `Unknown`.
-- Remove rows with invalid dates.
-- Treat unit prices above ₹5,000 as implausible data-entry anomalies for this demonstration.
-
-## Dataset note
-The included dataset is synthetic and is used only to demonstrate data-cleaning methods. It is not real customer data. Imputation and anomaly thresholds are documented project assumptions and should be validated before use in a real business.
+## Notes
+This is a learning project. Model performance is dataset-dependent and should not be interpreted as a real property valuation.
