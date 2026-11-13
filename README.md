@@ -1,18 +1,18 @@
-# Level 2 – Task 1: House Price Prediction
+# Level 2 – Task 2: Wine Quality Prediction
 
 ## Objective
-Build and evaluate a Linear Regression model to estimate house values from property and location-related features.
+Compare multiple classification models that predict wine quality categories from physicochemical measurements.
 
 ## Tech stack
-Python, pandas, scikit-learn, matplotlib, seaborn, Jupyter Notebook.
+Python, pandas, NumPy, scikit-learn, matplotlib, seaborn, Jupyter Notebook.
 
 ## Dataset
-The notebook uses the California Housing dataset provided by scikit-learn (`fetch_california_housing`). It is a public educational dataset with housing and area-level features. The notebook downloads it when run in Google Colab.
+The notebook downloads the UCI Wine Quality red wine dataset from the UCI Machine Learning Repository when run in Google Colab.
 
 ## Run
-1. Upload/open `House_Price_Prediction_Linear_Regression.ipynb` in Google Colab.
+1. Upload/open `Wine_Quality_Prediction_Classification.ipynb` in Google Colab.
 2. Run all cells from top to bottom.
-3. The notebook loads the dataset, explores it, preprocesses features, trains Linear Regression, evaluates MSE/RMSE/R², and creates diagnostic plots.
+3. The notebook explores class balance and feature relationships, creates quality groups (low/medium/high), trains Random Forest, SGD and SVC models, and compares their metrics.
 
 ## Notes
-This is a learning project. Model performance is dataset-dependent and should not be interpreted as a real property valuation.
+Wine quality is grouped into three classes for a practical classification exercise. The notebook explains this choice. Results are for educational use only.
